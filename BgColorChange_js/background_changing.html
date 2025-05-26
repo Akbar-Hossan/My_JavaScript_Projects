@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Game</title>
+    <style>
+        button{
+            border: 5px solid;
+             margin: 5%; 
+    
+            padding:2%;
+            color:wheat;
+            border-radius: 10px;
+        }
+        #red{
+            background-color: red;
+            border-color: aqua;
+            
+        }
+        #green{
+            background-color: green;
+            border-color: aqua;
+        }
+        #blue{
+            background-color: blue;
+            border-color: blueviolet;
+        }
+        #yellow{
+            background-color: yellow;
+            border-color: olive;
+            color: black;
+        }
+        #div{
+            border-radius: 5px;
+            box-sizing: 50px;
+            background-color: palegreen;
+            padding-left: 43%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-color: chartreuse;
+        }
+        #random { 
+            border-color: wheat;
+            color: black;
+        } 
+        #body{
+            background-color: bisque;
+        }
+      
+
+    </style>
+</head>
+<body id="body">
+    <div id="div">Background Selector!</div>
+    <button id="red" onclick='setColor("red")'>RED</button> 
+    <button id="green" onclick="setColor('green')">GREEN</button> 
+    <button id="blue" onclick="setColor('blue')">BLUE</button> 
+    <button id="yellow" onclick="setColor('yellow')">YELLOW</button>
+    <button id="random" onclick="randomColor()">RANDOM</button>
+    
+    <script src="background_changing.js"></script>
+
+    
+</body>
+</html>
